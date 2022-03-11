@@ -47,5 +47,5 @@ http://localhost:8080
 Então basta você iniciar o projeto com o comando:
 
 ~~~
-php yii serve -port=8080
+php yii serve --port=8080
 ~~~

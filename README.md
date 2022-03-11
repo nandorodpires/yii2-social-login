@@ -22,6 +22,13 @@ ESTRUTURA DO PROJETO BASIC YII2
 INSTALAÇÃO
 ------------
 
+Para instalar as dependências necessárias em seu projeto veja as seguintes documentações:\
+[https://github.com/yiisoft/yii2-authclient](https://github.com/user/repo/blob/branch/other_file.md)\
+[https://github.com/yiisoft/yii2-authclient/blob/master/docs/guide/README.md](https://github.com/yiisoft/yii2-authclient/blob/master/docs/guide/README.md)
+
+CONFIGURANDO O PROJETO
+------------
+
 ### Composer
 
 Após baixar o projeto rode o composer 

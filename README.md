@@ -29,6 +29,33 @@ Para instalar as dependências necessárias em seu projeto veja as seguintes doc
 CONFIGURANDO O PROJETO
 ------------
 
+### Google e Facebook
+Acesse sua conta do Google Cloud Console e do Facebook Developers, crie e configure um app.
+
+Acesse o arquivo `config/web.php` e insira o bloco abaixo:
+
+```
+...
+'components' => [
+    'authClientCollection' => [
+        'class' => 'yii\authclient\Collection',
+        'clients' => [
+            'google' => [
+                'class' => 'yii\authclient\clients\Google',
+                'clientId' => '[google_client_id]',
+                'clientSecret' => '[google_client_secret]',
+            ],
+            'facebook' => [
+                'class' => 'yii\authclient\clients\Facebook',
+                'clientId' => '[facebook_client_id]',
+                'clientSecret' => '[facebook_client_secret]',
+            ],
+        ],
+    ],
+    ...
+]
+```
+
 ### Composer
 
 Após baixar o projeto rode o composer 
@@ -46,7 +73,7 @@ php yii migrate
 RODANDO O PROJETO
 ------------
 
-O projeto foi configurado para rodar em:
+O projeto foi configurado para rodas em:
 ~~~
 http://localhost:8080
 ~~~
@@ -54,5 +81,5 @@ http://localhost:8080
 Então basta você iniciar o projeto com o comando:
 
 ~~~
-php yii serve --port=8080
+php yii serve -port=8080
 ~~~

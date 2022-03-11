@@ -1,4 +1,4 @@
-![alt text](http://localhost:8080/images/print.png)
+![alt text](/web/images/print.png)
 
 Este é um exemplo de como você pode implementar o login social (Google e Facebook) em seus projetos Yii2.
 

@@ -39,7 +39,7 @@ php yii migrate
 RODANDO O PROJETO
 ------------
 
-O projeto foi configurado para rodas em:
+O projeto foi configurado para rodar em:
 ~~~
 http://localhost:8080
 ~~~
